@@ -201,6 +201,7 @@ def dictionary_py():
         output += emojis.get(word, word) + " "
     print(output)
 
+
 def parameters_py(heading , head_ing):
     print(f"{heading} {head_ing}")
     print("Be a pro")
@@ -225,6 +226,7 @@ def returnstatement_py(number):
 
 
 def emojis_converter(message):
+    
     words = message.split(' ')
     emojis = {
         ":)":"😁",
@@ -269,5 +271,32 @@ def random_py():
     leader = random.choice(members)
     print(leader)
 
-#print(emojis_converter(":)"))
-print(for_function())
+
+def parameters101(name): #name is parameter ie. placeholder for functions for receiving informatiom
+    print(f'hi {name}')
+    print('welcome here')
+    #parameters101('John') john and mary are arguments
+    #parameters101('Mary')
+    #positional arguments vs keyword arguments
+    #eg. par('John', 'Mkubwa') - positional
+    #par(last_name = 'Mkubwa, first_name = 'John) - keyword(explain what arguments are input)
+
+
+def retun101(number):
+    return number * number
+#print(retun101(3)) - done outside code
+
+
+def reuse_fuction101(message):
+    words = message.split(' ')
+    emojis = {
+        ":)":"😁",
+        ":(":"😔"
+    }
+    output = ""
+    for word in words:
+        output += emojis.get(word, word) + " "
+    return output
+
+
+emojis_converter()
