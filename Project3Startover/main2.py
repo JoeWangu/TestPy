@@ -1,5 +1,8 @@
 #MODULE 2 WITH CLASSES AND MORE
 #classes101
+import random
+
+
 def class101(): #remove def when running code. not supposed to be there only used to isolate code
     class Point:
         def move(self):
@@ -81,4 +84,18 @@ def inheritance101():
     cat1.be_annoying()
     
 
-#mosh - packages(3:30:25)
+def randoms():
+    members = ['john', 'mary','josh','lion','cookie']
+    leader = random.choice(members)
+    #print(leader)
+
+    class Dice:
+        def roll(self):
+            i = random.randint(1,5)
+            j = random.randint(1,5)
+            return i,j
+
+
+    dice = Dice()
+    print(dice.roll())
+

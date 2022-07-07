@@ -369,3 +369,6 @@ def exceptions101():
         print(age)
     except ValueError:
         print('invalid value')
+
+
+nested_loops101()
