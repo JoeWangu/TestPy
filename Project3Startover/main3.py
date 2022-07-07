@@ -20,12 +20,13 @@ def paths():
 
 
 # WORKING WITH SPREADSHEETS
+#wb as workbook
 import openpyxl as xl
+wb = xl.load_workbook('transactions.xlsx')
+sheet = wb['Sheet1'] #Sheet is case sensitive(capital)
+cell = sheet['a1']
+# cell = sheet.cell(1,1) #another way to get a cell
+print(cell.value)
 
 
-
-
-
-
-
-#mosh - packages(3:30:25)
+#mosh - spreadsheets(4:00:53)
