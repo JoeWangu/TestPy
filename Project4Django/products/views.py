@@ -1,13 +1,15 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from .models import Product
 
 
 def index(request):
-    return HttpResponse('hello world')
+    products = Product.objects.all()
+    return render(request,'index.html',{'products':products})
 
 
 def new(request):
-    return HttpResponse('new products')
+    return HttpResponse('New Products')
 
 
 # Create your views here.
