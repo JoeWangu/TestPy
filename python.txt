@@ -1,0 +1,11 @@
+IMPORTANT COMMANDS
+django-admin startproject WebMarket .
+python manage.py runserver
+exit server - ctrl + c
+python manage.py startapp products
+python manage.py makemigrations
+python manage.py migrate
+
+
+u9Td3q!AZ5!jdZ
+AdminDjango5050
