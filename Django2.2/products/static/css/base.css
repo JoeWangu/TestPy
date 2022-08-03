@@ -5,7 +5,7 @@ body{
 
 nav{
     display: flex;
-    background-color: #704000;
+    background-color: #9b733f;
     justify-content: space-between;
     align-items: center;
     padding: 10px 1%;
@@ -48,10 +48,11 @@ ul{
 }
 nav a{
     text-decoration: none;
-    background-color: #ff5100;
+    background-color: #804124;
     color: #000;
     font-weight: bold;
     display: flex;
     flex-flow: column;
     padding: 0px 15px;
 }
+
