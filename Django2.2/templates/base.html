@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Furniture</title>
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    </head>
+    <body>
+        <section id="main">
+            <nav>
+                <a href="#" class="logo">LOGO</a>
+                    <ul class="menu">
+                        <li>
+                            <a href="#" class="nav-home">home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-about">about</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-services">services</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-portfolio">portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-team">team</a>
+                        </li>
+                        <!-- <li>
+                            <span>dropdown</span>
+                            <option value="drop down" class="drop">
+                                <a href="#"></a><select name="" id="">why</select></a>
+                                <select name="why" id="why">why</select>
+                                <select name="why" id="why">why</select>
+                                <select name="why" id="why">why</select>
+                                <select name="why" id="why">why</select>
+                            </option>
+                        </li> -->
+                        <li>
+                            <a href="#" class="nav-contact">contact</a>
+                        </li>
+                    </ul>
+            </nav>
+        </section>
+
+        <div class="container">
+            {% block content %}
+
+            {% endblock %}
+        </div>
+        <div class="frame">
+            <iframe src="youtube.com" frameborder="0"></iframe>
+        </div>
+
+    </body>
+</html>
