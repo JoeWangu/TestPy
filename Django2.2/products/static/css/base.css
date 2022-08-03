@@ -1,8 +1,15 @@
-body{
-    padding: 0;
-    margin: 0;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
+::selection{
+    background-color: #134c5f;
+        color: #ffffff;
+}
 nav{
     display: flex;
     background-color: #9b733f;
@@ -22,7 +29,7 @@ ul{
 
 .menu{
     display: flex;
-    padding: 1px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -30,14 +37,13 @@ ul{
     border-radius: 10px;
     letter-spacing: 1px;
     margin: 0px 5px;
-    font-size: large;
+    font-size: 0.8rem;
+    padding: 1px 3em;
 }
 
 .nav-home,
 .nav-about,
 .nav-services,
-.nav-portfolio,
-.nav-team,
 .nav-contact{
     padding: 10px 25px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
@@ -56,3 +62,15 @@ nav a{
     padding: 0px 15px;
 }
 
+.drop{
+    text-decoration: none;
+        background-color: #804124;
+        color: rgb(247, 247, 247);
+        padding: 10px 5px;
+        border: none;
+        border-radius: 10px;
+        letter-spacing: 1px;
+        margin: 0px 5px;
+        font-weight: bolder;
+        font-size: medium;
+}
